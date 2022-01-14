@@ -1,4 +1,4 @@
-import type { GetServerSideProps, GetStaticPaths, GetStaticProps } from "next";
+import type { GetServerSideProps } from "next";
 import { AppProps } from "next/dist/shared/lib/router/router";
 import ProductComponent from "../../components/product.component";
 

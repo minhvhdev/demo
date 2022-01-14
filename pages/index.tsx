@@ -1,9 +1,6 @@
-import type { GetStaticProps, NextPage } from "next";
+import type { GetStaticProps } from "next";
 import { AppProps } from "next/dist/shared/lib/router/router";
-import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
 
 const Home = ({ products }: AppProps) => {
   return (
